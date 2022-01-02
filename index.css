@@ -125,6 +125,7 @@ nav .fas {
 
   hb {
     transition: 1s;
+    overflow: scroll;
   }
 
   nav .far {
