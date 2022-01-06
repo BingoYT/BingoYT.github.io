@@ -15,7 +15,7 @@
 <body>
   <section class = 'header' id = 'home'>
         <nav>
-          <div class = 'nav-links'>
+          <div class = 'nav-links' id = 'links'>
           <!--  <img src = 'images/menu.svg'> -->
            <!-- <i class="far fa-times-circle"></i>-->
         <ul>
@@ -26,6 +26,10 @@
         </ul>
       </div>
       <!-- <i class="fas fa-bars"></i> -->
+      <div class = 'icon' onclick="showMenu()">
+        <img src = 'images/menu-icon.png'>
+        <script src="script.js"></script>
+      </div>
       </nav>
 
       <div class = 'text-box'>
@@ -34,7 +38,6 @@
         <a href = "#about" class="hero-btn">Learn More</a>
   </div>
 </section> 
-
 <section class = 'about' id = 'about'>
       <h1>About me</h1> <br>
       <p id = > My name is Alex. I'm 16 years of age and currently living in Kharkiv, Ukraine. I am one of those who like maths and coding. But what I really love doing is setting up new challenges and completing them before the specific term. I'm an aspired computer science student whose goal is to become a data scientist. Here is the list of my favourite subjects in school:</p>
@@ -77,11 +80,11 @@
     <div class = 'row'>
       <div class = 'col'>
         <h3>This website</h3>
-        <img src="images/dog.jpg">
+        <img src="images/dog.png">
         <p>I know it may sound weird, but I consider this website as my project.</p>
       <!--   <div class="hover-text-one">
           <figure class="effect-text-three">
-            <img src="images/dog.png" alt=""/>
+            <img src="images/dog.jpg" alt=""/>
               <figcaption>
           <h3>This website</h3>
           <p>I know it sounds weird, but I can consider this website as my project.</p>
